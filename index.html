@@ -22,8 +22,8 @@
 </head>
 
 <body>
-<!--Banner section-->
-<section class="grid grid-cols-2 container border border-red-500 mx-auto">
+<!--Banner Section-->
+<section class="grid grid-cols-1 md:grid-cols-2 container mx-auto">
     <div class="banner-left space-y-[30px]">
         <h2 class="text-[80px] font-bold">Its good <br>
             tea time at The <br>
@@ -36,10 +36,55 @@
         </button>
     </div>
 
-    <div class="banner-right">
+    <div class="banner-right flex justify-end items-end relative">
         <img src="images/banner.png">
+        <!--Rating div-->
+        <div class="bg-white rounded-xl shadow-2xl flex justify-center gap-2 items-center w-[220px] absolute bottom-[15px] left-[30px] py-[25px] px-[15px]">
+            <h2 class="font-bold text-4xl">5.00</h2>
+            <p>Trust Rating</p>
+
+        </div>
     </div>
 </section>
+
+<!--Featured Section-->
+<section class="container max-w-[65%] mx-auto mb-[30px]">
+    <!--Featured section header-->
+    <div>
+        <h2 class="font-bold text-[45px]">Our Featured Products</h2>
+        <p class="text-[#777777]">Discover our most popular tea selections and botanical solutions.</p>
+    </div>
+
+    <div class="featured-card-parent grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 ">
+        <div class="featured-card bg-linear-to-b from-[#f4f4f4] to-[#f4f4f4] p-7 text-center rounded-md ">
+            <img src="./images/tea-1.png" alt="Featured Tea 1" class="mx-auto mb-4">
+            <h2 class="font-semibold text-xl">Milk Tea</h2>
+            <p class="text-[#777777]">Indulge in the creamy delight of our Milk Tea, a perfect blend of rich tea and velvety milk.</p>
+
+        </div>
+        <div class="featured-card bg-linear-to-b from-[#f4f4f4] to-[#f4f4f4] p-7 text-center rounded-md ">
+            <img src="./images/tea-2.png" alt="Featured Tea 2" class="mx-auto mb-4">
+            <h2 class="font-semibold text-xl">Black Tea</h2>
+            <p class="text-[#777777]">Indulge in the creamy delight of our Black Tea, a perfect blend of rich tea and velvety milk.</p>
+
+        </div>
+        <div class="featured-card bg-linear-to-b from-[#f4f4f4] to-[#f4f4f4] p-7 text-center rounded-md ">
+            <img src="./images/tea-3.png" alt="Featured Tea 3" class="mx-auto mb-4">
+            <h2 class="font-semibold text-xl">GreenTea</h2>
+            <p class="text-[#777777]">Indulge in the creamy delight of our Green Tea, a perfect blend of rich tea and velvety milk.</p>
+
+        </div>
+        <div class="featured-card bg-linear-to-b from-[#f4f4f4] to-[#f4f4f4] p-7 text-center rounded-md ">
+            <img src="./images/tea-4.png" alt="Featured Tea 4" class="mx-auto mb-4">
+            <h2 class="font-semibold text-xl">Lemon Tea</h2>
+            <p class="text-[#777777]">Indulge in the creamy delight of our Lemon Tea, a perfect blend of rich tea and velvety milk.</p>
+
+        </div>
+    </div>
+
+
+</section>
+
 
    
     
